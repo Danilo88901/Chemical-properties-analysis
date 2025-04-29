@@ -1,0 +1,22 @@
+Conclusions:
+ 1. Boiling Point vs. Melting Point Correlation
+The correlation between boiling and melting points is quite high, reaching approximately 0.81.
+This value is slightly reduced when other parameters like molecular weight, heat of fusion, etc., are considered, where the correlation is 0.78. 
+However, when comparing boiling and melting points in isolation, the correlation remains high (0.81), indicating that the two are closely related regardless of other factors.
+
+
+2.Molecular Weight and Boiling Point
+A significant correlation exists between molecular weight and boiling point, which is around 0.66 when comparing all parameters such as molecular weight, boiling point, melting point, and heat of fusion.
+This correlation is nearly the same even when boiling point and molecular weight are considered separately, with a value of 0.65
+ It shows that the molecular weight is an important factor in determining the boiling point of substances.
+
+3.Effect of Molecular Weight on Correlation
+As molecular weight increases, the correlation between molecular weight and boiling point, as well as molecular weight and melting point, increases as well
+his is especially true for molecules with molecular weights greater than 200, where the correlation becomes significantly stronger (by approximately 0.1)
+This implies that for molecules with higher molecular weights (e.g., >300), there is a much stronger chance that the boiling point will correlate with the molecular weight. 
+This trend is similar for melting point as well.
+
+4.Melting Point and Heat of Fusion
+The highest correlation is observed between melting point and heat of fusion, which reaches 0.44
+his indicates that as the melting point increases, the heat of fusion also increases, though the correlation is not as strong as between boiling and melting points. 
+For example, substances with a melting point above 1000 K show higher correlation with heat of fusion, although the correlation remains moderate (around 0.36)
