@@ -1,0 +1,29 @@
+ This where you can change condition 
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+file_path = r"C:\Users\Liana\Downloads\Telegram Desktop\physical_chemical_properties_of_organic_substances.csv"
+df = pd.read_csv(file_path)
+a=df.query("molecular_weight>0 and boiling_point_K>0 and melting_point_K>0 and heat_of_fusion>10000 ")
+b=a[["molecular_weight","boiling_point_K","melting_point_K","heat_of_fusion"]]
+corr = b.corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Correlation between parametrs'')
+plt.show()
+
+
+
+
+This one general 
+ import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+file_path = r"C:\Users\Liana\Downloads\Telegram Desktop\physical_chemical_properties_of_organic_substances.csv"
+df = pd.read_csv(file_path)
+a=df[["molecular_weight","melting_point_K","melting_point_K","heat_of_fusion"]]
+corr = a.corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(corr, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Сorrelation between parametrs')
+plt.show()  
